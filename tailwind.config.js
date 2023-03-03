@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      colors: {
+        body: "#050505",
+      },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
       },
