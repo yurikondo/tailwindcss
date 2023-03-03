@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         body: "#050505",
+        "selected-text": "#A3A3AF",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
