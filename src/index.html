@@ -13,6 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="font-raleway bg-body text-white">
     <!-- ナビゲージョンバー -->
@@ -21,7 +28,8 @@
         class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full"
       >
         <div class="text-lg font-bold">Yuri.com</div>
-        <div class="space-x-12">
+        <!-- hidden md:flex md(768px)以上のサイズの時は表示する -->
+        <div class="space-x-12 hidden md:flex items-center">
           <a
             href="#home"
             class="hover:text-selected-text transition-all duration-300"
@@ -44,6 +52,10 @@
               お問い合わせ
             </button></a
           >
+        </div>
+        <!-- md(768px)以上のサイズの時は隠す -->
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </div>
     </header>
