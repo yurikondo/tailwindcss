@@ -8,6 +8,7 @@ module.exports = {
         body: "#050505",
         "selected-text": "#A3A3AF",
         theme: "#e50111",
+        secondary: "#9191A4"
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
